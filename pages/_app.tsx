@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
         id="google-tag"
       />{" "}
       ;
-      <Script strategy="lazyOnload">
+      <Script strategy="lazyOnload" id="google-tag-2">
         {`  window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -24,3 +24,5 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   );
 }
+
+App.displayName = "myApp";
