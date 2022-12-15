@@ -1,14 +1,10 @@
 //this is the home page, I imported the navbar that needs to be used
 
-import Script from "next/script";
-import Tracking from "../components/tracking";
 import Navbar from "../components/Navbar";
-import GoogleTagManager from "@redux-beacon/google-tag-manager";
 
-function Home(props) {
+export default function Home(props) {
   return (
     <>
-      <Tracking />
       <Navbar />
       <div className="main-container">
         <style global jsx>
@@ -89,4 +85,3 @@ function Home(props) {
     </>
   );
 }
-export default Home;
