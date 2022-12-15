@@ -7,7 +7,7 @@ const styles = {
 import Navbar from "../components/navbar";
 import Image from "next/image";
 
-export default () => (
+export default function about() {
   <div>
     <Navbar />
     <style global jsx>{`
@@ -77,5 +77,5 @@ export default () => (
         />
       </div>
     </div>
-  </div>
-);
+  </div>;
+}
