@@ -3,15 +3,15 @@ import type { AppProps } from "next/app";
 import Link from "next/link";
 import Script from "next/script";
 
-function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Script
-        id="google-tag"
+        id="gtm-script"
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=G-40Y0MFMRQ7`}
       />
-      <Script id="google-tag-2" strategy="lazyOnload">
+      <Script id="gtm-script-2" strategy="lazyOnload">
         {`  window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -22,5 +22,3 @@ function App({ Component, pageProps }: AppProps) {
     </>
   );
 }
-
-export default App;

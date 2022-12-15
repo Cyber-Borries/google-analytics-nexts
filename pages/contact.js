@@ -1,9 +1,9 @@
 //basic contact page. I used the image and navbar components
 
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import Image from "next/image";
 
-function Contact() {
+export default function Contact() {
   return (
     <div>
       <style global jsx>
@@ -42,5 +42,3 @@ function Contact() {
     </div>
   );
 }
-
-export default Contact;

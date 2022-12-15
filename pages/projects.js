@@ -1,9 +1,9 @@
 //project page. I imported the navbar and link components
 
 import Link from "next/link";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 
-function Projects() {
+export default function Projects() {
   return (
     <div>
       <style global jsx>
@@ -108,5 +108,3 @@ function Projects() {
     </div>
   );
 }
-
-export default Projects;

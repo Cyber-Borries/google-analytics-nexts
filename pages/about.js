@@ -1,13 +1,13 @@
 //about page, I imported the Image, navbar and accordion components
 
-import Accordion from "../components/accordion";
+import Accordion from "../components/Accordion";
 const styles = {
   fontFamily: "Roboto",
 };
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import Image from "next/image";
 
-function About() {
+export default function About() {
   return (
     <div>
       <Navbar />
@@ -81,5 +81,3 @@ function About() {
     </div>
   );
 }
-
-export default About;

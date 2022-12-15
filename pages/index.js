@@ -2,7 +2,7 @@
 
 import Script from "next/script";
 import Tracking from "../components/tracking";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import GoogleTagManager from "@redux-beacon/google-tag-manager";
 
 function Home(props) {
