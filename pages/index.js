@@ -5,14 +5,6 @@ import Tracking from "../components/tracking";
 import Navbar from "../components/navbar";
 import GoogleTagManager from "@redux-beacon/google-tag-manager";
 
-// Create or import an events map.
-// See "getting started" pages for instructions.
-
-// const gtm = GoogleTagManager();
-
-// const gtmMiddleware = createMiddleware(eventsMap, gtm);
-// const gtmMetaReducer = createMetaReducer(eventsMap, gtm);
-
 function Home(props) {
   return (
     <>
