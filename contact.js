@@ -3,7 +3,7 @@
 import Navbar from "../components/navbar";
 import Image from "next/image";
 
-export default function contact() {
+export default function Contact() {
   return (
     <div>
       <style global jsx>
