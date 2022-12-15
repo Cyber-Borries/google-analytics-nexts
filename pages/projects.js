@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Navbar from "../components/navbar";
 
-export default () => (
+export default function projects() {
   <div>
     <style global jsx>
       {`
@@ -104,5 +104,5 @@ export default () => (
         </span>
       </div>
     </div>
-  </div>
-);
+  </div>;
+}
