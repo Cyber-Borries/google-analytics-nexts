@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function Accordion(props) {
+function Accordion(props) {
   const [isShowing, setIsShowing] = useState(false);
 
   const toggle = () => {
@@ -49,3 +49,5 @@ export default function Accordion(props) {
     </div>
   );
 }
+
+export default Accordion;

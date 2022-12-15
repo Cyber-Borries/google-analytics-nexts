@@ -1,8 +1,6 @@
 //created a navbar component to be used on all pages
 
-import Script from "next/script";
-
-export default function Navbar(props) {
+function Navbar(props) {
   return (
     <>
       <nav
@@ -78,3 +76,5 @@ export default function Navbar(props) {
     </>
   );
 }
+
+export default Navbar;
