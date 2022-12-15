@@ -6,13 +6,12 @@ import Script from "next/script";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      {" "}
       <Script
+        id="google-tag"
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=G-40Y0MFMRQ7`}
-        id="google-tag"
-      />{" "}
-      <Script strategy="lazyOnload" id="google-tag-2">
+      />
+      <Script id="google-tag-2" strategy="lazyOnload">
         {`  window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
